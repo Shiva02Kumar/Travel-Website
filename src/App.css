@@ -17,7 +17,6 @@
 }
 
 .services {
-    /* background-image: url('/images/img-2.jpg'); */
     background-image: url('/public/images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -27,7 +26,6 @@
 }
 
 .products {
-    /* background-image: url('/images/img-1.jpg'); */
     background-image: url('/public/images/img-6.jpg');
     background-position: center;
     background-size: fill;
@@ -43,4 +41,19 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+}
+
+@media screen and (max-width: 828px){
+    .services {
+        font-size: 75px;
+    }
+    
+    .products {
+        font-size: 75px;
+    }
+    
+    .sign-up {
+        font-size: 75px;
+    }
+    
 }
